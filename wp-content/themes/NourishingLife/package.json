@@ -78,6 +78,7 @@
   },
   "dependencies": {
     "jquery": "^3.3.1",
-    "postcss": "^8.2.8"
+    "postcss": "^8.2.8",
+    "true-case-path": "^2.2.1"
   }
 }

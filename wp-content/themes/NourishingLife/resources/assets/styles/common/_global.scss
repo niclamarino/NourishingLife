@@ -1,1 +1,33 @@
 // Global styles are set in the Tailwind config using a plugin
+
+html,
+body {
+  @apply text-primary;
+
+  font-family: "Merriweather", serif;
+}
+
+.outer-container {
+  @apply mx-auto;
+
+  max-width: 80%;
+}
+
+.inner-container {
+  @apply mx-auto;
+
+  max-width: 50%;
+}
+
+.rounded-image {
+  border-top-left-radius: 11.5rem;
+  border-bottom-right-radius: 11.5rem;
+}
+
+.section-padding {
+  @apply py-10;
+
+  @screen lg {
+    @apply py-20;
+  }
+}

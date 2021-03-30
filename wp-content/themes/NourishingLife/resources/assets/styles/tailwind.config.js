@@ -49,7 +49,12 @@ const globalStyles = ({ addBase, config }) => {
 module.exports = {
   theme: {
     colors: {
-      primary: '#525ddc',
+      primary: '#3E4E7F',
+      highlight: '#18B692',
+      teal: '#18B692',
+      azure: '#6FB4E0',
+      teal: '#18B692',
+      gradient: 'linear-gradient(90deg, #18B692 0%, #18B692 46%, #6FB4E0 100%);',
       white: '#fff',
       gray: {
         100: '#f7fafc',

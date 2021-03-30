@@ -1,0 +1,11 @@
+.homepage-hero {
+  @apply bg-cover bg-center;
+
+  background-image: url(~/wp-content/themes/NourishingLife/resources/assets/images/hero-homepage.jpg);
+}
+
+.homepage-artwork {
+  @apply bg-cover bg-center;
+
+  background-image: url(~/wp-content/themes/NourishingLife/resources/assets/images/homepage-artwork.jpg);
+}

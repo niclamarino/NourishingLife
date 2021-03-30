@@ -1,0 +1,17 @@
+.newsletter-subscription {
+  input[type=text] {
+    @apply bg-highlight border-b border-white;
+
+    &::placeholder {
+      @apply text-white;
+    }
+  }
+
+  input[type=submit] {
+    @apply rounded-full my-3 px-6 py-3 text-primary leading-none bg-white mt-5 table;
+
+    @screen lg {
+      @apply float-right;
+    }
+  }
+}
