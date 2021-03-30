@@ -1,4 +1,4 @@
-<footer class="outer-container border-t border-primary py-5 lg:py-10">
+<footer class="outer-container border-t border-primary py-5 lg:py-10 mt-5 lg:mt-10">
     <div class="flex flex-col lg:flex-row lg:-mx-10">
         <div class="w-full lg:px-10 lg;w-1/3">
           <?php $contact_me = get_field_object('contact_me', 'options'); ?>
